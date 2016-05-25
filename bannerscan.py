@@ -43,7 +43,12 @@ PORTS = (80,
          7002,
          7003,
          7004,
-         7005
+         7005,
+         9001,
+         9002,
+         9003,
+         9004,
+         9005
 )
 
 
@@ -71,7 +76,6 @@ PATHS = ('/robots.txt',
          '/index.action',
          '/phpinfo.php',
          '/info.php',
-         '/1.php',
          '/CHANGELOG.txt',
          '/LICENSE.txt',
          '/readme.html',
@@ -81,7 +85,7 @@ PATHS = ('/robots.txt',
          '/test/',
          '/CFIDE/',
          '/.htaccess',
-         '/.git/'
+         '/.git/',
 )
 
 HTML_LOG_TEMPLATE="""
