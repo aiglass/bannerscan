@@ -53,6 +53,7 @@ PORTS = (80,
 
 
 PATHS = ('/robots.txt',
+		 '/invoker/ReadOnlyJNDIFactory',
          '/admin/',
          '/manager/html/',
          '/jmx-console/',
